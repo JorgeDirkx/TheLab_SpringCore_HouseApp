@@ -11,6 +11,7 @@ import org.springframework.context.annotation.*;
 @ComponentScan
 public class HouseConfiguration {
 
+    //annotation @bean
     @Bean(initMethod = "startmethode")
     public Broom broom(){
         return new Broom();
@@ -22,6 +23,7 @@ public class HouseConfiguration {
 
 
     @Bean
+    //all beans in container, the ones with @lazy only once we need those.
     @Lazy
     public CleaningService jill(Broom broom){
         return new CleaningServiceImpl(broom);

@@ -9,6 +9,7 @@ public class HouseApp {
     public static void main(String[] args) {
         try(ConfigurableApplicationContext applicationContext =
                 new AnnotationConfigApplicationContext(HouseConfiguration.class)){
+            //get a bean out of the container
             applicationContext.getBean(GardeningService.class).garden();
 
         }
