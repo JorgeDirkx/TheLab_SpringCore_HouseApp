@@ -1,0 +1,6 @@
+Spring Core test for HouseApp
+* Configuration: java config
+* HouseConfiguration @configuration
+ - setup of @Bean
+* Main: setup of applicationcontext
+* Usage of @Bean or @ComponentScan
