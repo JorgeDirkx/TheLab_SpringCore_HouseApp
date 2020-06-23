@@ -9,6 +9,7 @@ public class CleaningServiceImpl implements CleaningService {
 
     private CleaningTool tool;
 
+    //injection via constructor
     public CleaningServiceImpl(CleaningTool tool){
         System.out.println("constructing a cleaningserviceImpl");
         this.tool = tool;

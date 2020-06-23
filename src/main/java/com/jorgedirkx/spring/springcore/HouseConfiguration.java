@@ -7,6 +7,7 @@ import com.jorgedirkx.spring.springcore.tools.implementations.Broom;
 import com.jorgedirkx.spring.springcore.tools.implementations.VacuumCleaner;
 import org.springframework.context.annotation.*;
 
+//JAVA CONFIG:
 @Configuration
 @ComponentScan
 public class HouseConfiguration {
