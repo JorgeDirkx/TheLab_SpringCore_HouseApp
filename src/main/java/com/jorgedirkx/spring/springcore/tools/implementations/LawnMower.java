@@ -7,6 +7,7 @@ import org.springframework.stereotype.Component;
 
 //communicating with Spring; make a bean out of this class. Scan for components in HouseConfiguration ?
 //add @ComponentScan in public class Houseconfiguration OR use @bean as stated in HouseConfiguration.
+//make a LawnMower bean and put in container
 @Component
 //
 @Primary

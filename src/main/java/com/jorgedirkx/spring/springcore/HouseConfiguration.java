@@ -9,8 +9,11 @@ import org.springframework.context.annotation.*;
 
 //JAVA CONFIG:
 @Configuration
+//will check for all @component in THIS PACKAGE !oplossing :@ComponentScan(basePackages ...
 @ComponentScan
 public class HouseConfiguration {
+
+    //all these beans are put in the Spring container:
 
     //annotation @bean
     @Bean(initMethod = "startmethode")

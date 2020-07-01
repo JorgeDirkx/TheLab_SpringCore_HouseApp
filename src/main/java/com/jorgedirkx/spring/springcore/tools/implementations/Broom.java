@@ -22,6 +22,7 @@ public class Broom implements CleaningTool {
         return brandName;
     }
 
+    // injecting with Spring expression language
     @Value("#{'sweeper'}")
     public void setBrandName(String brandName) {
         this.brandName = brandName;
